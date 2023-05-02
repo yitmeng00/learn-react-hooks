@@ -1,3 +1,11 @@
+# This is a simple react project for testing while learning Codevolution's course "ReactJS Tutorial".
+Course Video: https://youtu.be/cF2lQ_gZeA8
+ReactJS Tutorial for Beginners Playlist
+
+YouTube Channel: https://www.youtube.com/@Codevolution
+
+GitHub Repo: https://github.com/yitmeng00/test-react-hooks.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
