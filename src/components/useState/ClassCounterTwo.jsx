@@ -1,3 +1,4 @@
+// useState Hook with previous state in Class Component
 import React, { Component } from "react";
 
 class ClassCounterTwo extends Component {

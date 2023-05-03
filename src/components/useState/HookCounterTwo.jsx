@@ -1,3 +1,4 @@
+// useState Hook with previous state in Functional Component
 import React, { useState } from "react";
 
 function HookCounterTwo() {

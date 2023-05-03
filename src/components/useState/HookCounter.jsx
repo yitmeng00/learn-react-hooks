@@ -1,3 +1,4 @@
+// useState Hook in Functional Component
 import React, { useState } from "react";
 
 function HookCounter() {

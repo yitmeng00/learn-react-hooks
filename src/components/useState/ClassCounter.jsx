@@ -1,3 +1,4 @@
+// useState Hook in Class Component
 import React, { Component } from "react";
 
 class ClassCounter extends Component {
