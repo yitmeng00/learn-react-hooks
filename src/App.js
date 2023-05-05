@@ -23,6 +23,7 @@ import ComponentB from "./components/useReducer/ComponentB";
 import DataFetchingOne from "./components/useReducer/DataFetchingOne";
 import DataFetchingTwo from "./components/useReducer/DataFetchingTwo";
 import ParentComponent from "./components/useCallback/ParentComponent";
+import Counter from "./components/useMemo/Counter";
 
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
@@ -79,6 +80,7 @@ function App() {
                 <DataFetchingOne />
                 <DataFetchingTwo />
                 <ParentComponent />
+                <Counter />
             </div>
         </CountContext.Provider>
     );
