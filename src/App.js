@@ -22,6 +22,7 @@ import ComponentA from "./components/useReducer/ComponentA";
 import ComponentB from "./components/useReducer/ComponentB";
 import DataFetchingOne from "./components/useReducer/DataFetchingOne";
 import DataFetchingTwo from "./components/useReducer/DataFetchingTwo";
+import ParentComponent from "./components/useCallback/ParentComponent";
 
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
@@ -77,6 +78,7 @@ function App() {
                 <ComponentC />
                 <DataFetchingOne />
                 <DataFetchingTwo />
+                <ParentComponent />
             </div>
         </CountContext.Provider>
     );
