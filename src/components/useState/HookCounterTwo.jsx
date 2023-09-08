@@ -16,6 +16,7 @@ function HookCounterTwo() {
 
     const incrementFive = () => {
         for (let i = 0; i < 5; i++) {
+            //       argument       function body
             setCount((prevCount) => prevCount + 1);
         }
     };

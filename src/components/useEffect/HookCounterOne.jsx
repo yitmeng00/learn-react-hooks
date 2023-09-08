@@ -9,7 +9,7 @@ function HookCounterOne() {
     // in order to conditionally run effect, specified second parameter which is the array of value that the effects depends on
     useEffect(() => {
         console.log("useEffect - Updating Document Title...");
-        document.title = `You clicked ${count} times`;
+        document.title = `${name} clicked ${count} times`;
     }, [count]);
 
     return (

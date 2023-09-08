@@ -21,6 +21,7 @@ function HookMouse() {
             window.removeEventListener("mousemove", logMousePosition);
         };
     }, []);
+    // Add empty array to run only once at the begining
 
     return (
         <div>

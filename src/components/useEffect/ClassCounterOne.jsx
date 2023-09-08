@@ -11,13 +11,13 @@ class ClassCounterOne extends Component {
     }
 
     componentDidMount() {
-        document.title = `Clicked ${this.state.count} times`;
+        document.title = `${this.state.name} clicked ${this.state.count} times`;
     }
 
     componentDidUpdate(prevProps, prevState) {
         if (prevState.count !== this.state.count) {
             console.log("Updating Document Title...");
-            document.title = `Clicked ${this.state.count} times`;
+            document.title = `${this.state.name} clicked ${this.state.count} times`;
         }
     }
 
